@@ -60,4 +60,19 @@ netlify deploy --build
 # production deployment
 netlify deploy --build --prod
 ```
+
 # nozzmo-website
+
+## Testing
+
+Typescript with Cypress is used to test the site, install all the dependencies and run the tests by running this:
+
+```sh
+# install dependencies
+npm install
+
+# run tests
+npx cypress run
+```
+
+if you want to tune the testing you can see the [documentation](https://docs.cypress.io/guides/guides/command-line)

@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "cypress/integration",
+      "noEmit": false,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "esnext"
+    },
+    "include": ["cypress/integration/**/*.ts"]
+  }
+  
