@@ -78,9 +78,11 @@ The errors found were prioritized based on the impact they have on the user expe
 - stablish a minimun number of chars for the user name
 - stablish a minimun number of chars for the description
 - check definition of whats a coherent link
+- check definition on what does it mean to display correctly
 
 
 - create new tests to verify when the errors are fixed
+  - create a test that checks that element dont overflow or other kind of test cor "correctly displayed" following the new definition
   - check spaces at the begining and end of the email
   - verify the minumun chars for the user name
   - verify the minumun chars for the description
