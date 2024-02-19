@@ -69,7 +69,7 @@ Typescript with Cypress is used to test the site, install all the dependencies a
 
 ```sh
 # install dependencies
-npm install
+yarn install
 
 # run tests
 npx cypress run
